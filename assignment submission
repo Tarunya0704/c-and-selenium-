@@ -1,0 +1,34 @@
+# CloudQA Form Automation Test
+
+## Project Overview
+Automated testing solution for CloudQA practice form using C# and Selenium WebDriver.
+
+## Features
+- Robust Element Location: Multiple locator strategies per field
+- Self-Healing Tests: Adapts when HTML structure changes
+- Comprehensive Reporting: Detailed test execution logs
+- Error Handling: Graceful failure handling with informative messages
+
+## Test Coverage
+1. Name Field Testing - Text input validation
+2. Email Field Testing - Email format and input validation  
+3. Phone Field Testing - Numeric input validation
+
+## Setup Instructions
+1. Install Visual Studio 2022
+2. Install Chrome browser
+3. Download ChromeDriver and add to PATH
+4. Clone/download this project
+5. Run: `dotnet restore` (if needed)
+6. Execute: `dotnet run` or press F5 in Visual Studio
+
+## Test Strategy
+- Uses 8+ different locator strategies per field
+- Falls back gracefully when primary locators fail
+- Provides detailed logging for debugging
+- Validates actual vs expected field values
+
+## Results
+- Test execution summary with pass/fail counts
+- Individual field test results
+- Performance and reliability metrics
